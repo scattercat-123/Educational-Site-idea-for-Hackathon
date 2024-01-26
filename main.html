@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f4f4f4; /* Light Gray */
+            color: #000; /* Black */
+        }
+
+        header {
+            background: linear-gradient(to right, #4CAF50, #45a049); /* Gradient Background */
+            padding: 20px;
+            text-align: center;
+            color: #fff; /* White */
+            position: fixed;
+            width: 100%;
+            z-index: 1000;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Light Shadow */
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+            font-size: 18px; /* Increased Font Size */
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #000; /* Black */
+            font-family: 'Arial', sans-serif; /* Simple Font */
+            position: relative;
+            display: inline-block;
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+        }
+
+        nav a:hover {
+            color: #fff; /* White */
+            background: linear-gradient(to right, #4CAF50, #45a049); /* Gradient Background */
+        }
+
+        main {
+            padding: 120px 20px 20px; /* Increased padding for the fixed header */
+        }
+
+        .banner {
+            text-align: center;
+            padding: 40px;
+            background: linear-gradient(to right, #4CAF50, #45a049); /* Gradient Background */
+            color: #fff; /* White */
+        }
+
+        .banner h1 {
+            font-size: 36px; /* Increased Font Size */
+            margin-bottom: 20px;
+        }
+
+        .banner button {
+            background: linear-gradient(to right, #4CAF50, #45a049); /* Gradient Background */
+            color: #fff; /* White */
+            padding: 15px 30px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease-in-out;
+            font-size: 18px; /* Adjusted Font Size */
+            margin-top: 20px;
+        }
+
+        .banner button:hover {
+            background: linear-gradient(to right, #45a049, #4CAF50); /* Reversed Gradient Background */
+        }
+
+        .module, .game {
+            background-color: #fff; /* White */
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Box Shadow */
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 30px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .module:hover, .game:hover {
+            transform: scale(1.03);
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        button {
+            background: linear-gradient(to right, #4CAF50, #45a049); /* Gradient Background */
+            color: #fff; /* White */
+            padding: 12px 24px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease-in-out;
+            font-size: 16px; /* Adjusted Font Size */
+        }
+
+        button:hover {
+            background: linear-gradient(to right, #45a049, #4CAF50); /* Darker Green */
+        }
+
+        footer {
+            background: linear-gradient(to right, #4CAF50, #45a049); /* Gradient Background */
+            padding: 15px;
+            text-align: center;
+            color: #fff; /* White */
+        }
+    </style>
+    <title>IM - TELLIGENT</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="IM - TELLIGENT Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Courses</a></li>
+                <li><a href="#">Games</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="banner">
+            <h1>Welcome to IM - TELLIGENT Learning Platform</h1>
+            <button>Explore Now</button>
+        </section>
+
+        <section class="learning-modules">
+            <h2>Learning Modules</h2>
+            <div class="module">
+                <img src="module1-icon.png" alt="Module 1 Icon">
+                <h3>Module 1</h3>
+                <p>Description of Module 1.</p>
+            </div>
+            <div class="module">
+                <img src="module2-icon.png" alt="Module 2 Icon">
+                <h3>Module 2</h3>
+                <p>Description of Module 2.</p>
+            </div>
+        </section>
+
+        <section class="games">
+            <h2>Games</h2>
+            <div class="game">
+                <img src="game1-thumbnail.png" alt="Game 1 Thumbnail">
+                <h3>Exam Tutor</h3>
+                <p>Description of Exam Tutor game.</p>
+                <button>Play Now</button>
+            </div>
+            <div class="game">
+                <img src="game2-thumbnail.png" alt="Game 2 Thumbnail">
+                <h3>Spend Elon Musk's Money</h3>
+                <p>Description of Spend Elon Musk's Money game.</p>
+                <button>Play Now</button>
+            </div>
+            <div class="game">
+                <img src="game3-thumbnail.png" alt="Game 3 Thumbnail">
+                <h3>IM-RPG</h3>
+                <p>Description of IM-RPG game.</p>
+                <button>Play Now</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 IM - TELLIGENT. All rights reserved.</p>
+    </footer>
+</body>
+</html>
