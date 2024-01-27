@@ -1,0 +1,15 @@
+.rainbowheading{
+    width: 100%;
+    padding: 0px 15px;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    line-height: 1.5;
+    transition: color 0.2s ease-in-out;
+}
+
+.rainbowheading:hover {
+    background: linear-gradient(45deg, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    color: transparent;
+}
