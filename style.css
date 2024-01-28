@@ -1,0 +1,106 @@
+.rainbowheading {
+  width: 100%;
+  padding: 0px 15px;
+  text-align: center;
+  color: black;
+  font-size: 20px;
+  line-height: 1.5;
+  transition: color 0.2s ease-in-out;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+.rainbowheading:hover {
+  background: linear-gradient(
+    45deg,
+    violet,
+    indigo,
+    blue,
+    green,
+    rgb(186, 186, 0),
+    orange,
+    red
+  );
+  background-clip: text;
+  color: transparent;
+}
+.iframe-parent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.iframe-children {
+  padding-top: 10px;
+  height: 100vh;
+  width: 80vh;
+  border-radius: 20px;
+  border-width: 10px;
+  border-color: blueviolet;
+}
+.interactivenav {
+  border-radius: 5px 0px 0px 5px;
+}
+.feedbacknav {
+  border-radius: 0px 5px 5px 0px;
+}
+.nav {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+}
+.container {
+  padding-left: 40px;
+  padding-top: 0%;
+}
+.githubicon{
+height: 25px;
+  width: 25px;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  flex:content;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 15px;
+}
+
+.text-container {
+  margin-left: 20px;
+  overflow: hidden;
+}
+
+.skilltext {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 20px;
+  line-height: 1.6;
+  text-align: justify;
+  float: right;
+  background-color: aliceblue;
+  background-size: contain;
+}
+
+.image-container img {
+  border-radius: 50%;
+  width: 300px;
+  height: 280px;
+  float: left;
+  padding-left: 30px;
+  background-color: aliceblue;
+}
+.contact{
+  padding-left: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.textinputs{
+  padding-left: 30px;
+}
