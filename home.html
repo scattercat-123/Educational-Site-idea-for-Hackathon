@@ -13,6 +13,7 @@
 body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 .w3-bar,h1,button {font-family: "Montserrat", sans-serif}
 .fa-anchor,.fa-coffee {font-size:200px}
+
 </style>
 </head>
 <body>
@@ -21,10 +22,10 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
   <div style="background: #dbdbdbad; padding: 5px 15px; display: flex; justify-content: end; margin: 20px;border-radius: 10px;" >
     <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red " href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
     <div class="homenav">
+      <img src="logoupdtaed.gif" style="justify-content: left; width: 60px;height: 60px;border-radius: 20px;">
         <a href="home.html" style="background-color: aqua; border-radius: 5px; margin-right: 3px;"class="w3-bar-item w3-button w3-padding-large w3-hover-black">Home</a>
     </div>
     <a href="tutor.html" class=" interactivenav w3-button w3-hide-small w3-padding-large w3-hover-white">Interactive AI Exam Tutor</a>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">blank</a>
     <a href="aboutus.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">About Us</a>
     <a href="feedback.html" class=" feedbacknav w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Feedback</a>
   </div>
@@ -85,12 +86,9 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
     
     <footer class="w3-container w3-center w3-opacity">  
       <div class="w3-xlarge ">
-        <a href="getstarted.html"><img src="https://cdn1.iconfinder.com/data/icons/social-media-logos-7/64/github-512.png" class="githubicon"></a>
-        <i class="fa fa-instagram w3-hover-opacity"></i>
-        <i class="fa fa-snapchat w3-hover-opacity"></i>
-        <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-        <i class="fa fa-twitter w3-hover-opacity"></i>
-        <i class="fa fa-linkedin w3-hover-opacity"></i>
+        <a href="aboutus.html" id="scrollToPage2"><img src="https://cdn1.iconfinder.com/data/icons/social-media-logos-7/64/github-512.png" class="githubicon"></a>
+        <a href="aboutus.html"><img src="https://cdn1.iconfinder.com/data/icons/social-media-logos-7/64/github-512.png" class="githubicon"></a>
+        <p>↑click github↑</p>
       </div>
       <p>Made by <a href="aboutus.html" target="_blank">Team 39</a></p>
     </footer>
@@ -105,6 +103,9 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
           x.className = x.className.replace(" w3-show", "");
         }
       }
+        document.getElementById('scrollToAboutUsButton').addEventListener('click', function() {
+            window.location.href = 'aboutus.html';
+        });
     </script>
 
     </body>

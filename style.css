@@ -8,6 +8,11 @@
   transition: color 0.2s ease-in-out;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+
 .rainbowheading:hover {
   background: linear-gradient(
     45deg,
@@ -54,4 +59,48 @@
 .githubicon{
 height: 25px;
   width: 25px;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  flex:content;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 15px;
+}
+
+.text-container {
+  margin-left: 20px;
+  overflow: hidden;
+}
+
+.skilltext {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 20px;
+  line-height: 1.6;
+  text-align: justify;
+  float: right;
+  background-color: aliceblue;
+  background-size: contain;
+}
+
+.image-container img {
+  border-radius: 50%;
+  width: 300px;
+  height: 280px;
+  float: left;
+  padding-left: 30px;
+  background-color: aliceblue;
+}
+.contact{
+  padding-left: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.textinputs{
+  padding-left: 30px;
 }
